@@ -115,6 +115,9 @@ h3{
 .igua{
     width: 96%;
 }
+.igua:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
 footer{
     background-color: #1E1A13;
     font-family: 'Raleway', sans-serif;
